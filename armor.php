@@ -8,6 +8,8 @@ require_once("lib/villagenav.php");
 
 tlschema("armor");
 
+output("OOGA BOOGA");
+
 checkday();
 $tradeinvalue = round(($session['user']['armorvalue']*.75),0);
 $basetext=array(
